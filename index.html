@@ -1632,14 +1632,17 @@ textarea.form-control {
 }
 
 .copyright a {
-    color: rgba(255, 255, 255, .88);
+    color: rgba(255, 255, 255, .95);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+    transition: color var(--t), text-decoration-thickness var(--t);
 }
 
 .copyright a:hover {
     color: #fff;
-    text-decoration: underline;
+    text-decoration-thickness: 2px;
 }
-
 /* =========================================================
    16. SCROLL-TO-TOP
    ========================================================= */
